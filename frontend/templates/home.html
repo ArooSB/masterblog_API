@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="home-container">
+        <h1>📚 Blog Posts</h1>
+        <div class="input-field">
+            <input type="text" id="keyword" placeholder="Enter a keyword to search">
+            <button onclick="searchPosts()">Search</button>
+        </div>
+        <div class="input-field">
+            <button onclick="window.location.href='write.html'">Write a Blog</button>
+        </div>
+        <div id="post-container">
+            <!-- Search results will be displayed here -->
+        </div>
+    </div>
+
+    <script src="static/main.js"></script>
+</body>
+</html>

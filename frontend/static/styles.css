@@ -1,0 +1,154 @@
+/* Base colors */
+:root {
+  --primary-color: #264653;
+  --secondary-color: #2a9d8f;
+  --tertiary-color: #e9c46a;
+  --accent-color: #f4a261;
+  --error-color: #e76f51;
+}
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: var(--primary-color);
+}
+
+.container,
+.home-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: var(--primary-color);
+}
+
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--secondary-color);
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: var(--secondary-color);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: var(--tertiary-color);
+}
+
+.posts-list {
+  list-style: none;
+  padding: 0;
+}
+
+.posts-list li {
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.posts-list .post-title {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.posts-list .post-content {
+  color: var(--secondary-color);
+}
+
+.posts-list .post-author {
+  font-style: italic;
+  color: var(--accent-color);
+}
+
+.posts-list .post-date {
+  font-size: 0.9em;
+  color: var(--tertiary-color);
+}
+
+button,
+.button {
+  background-color: var(--secondary-color);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover,
+.button:hover {
+  background-color: var(--tertiary-color);
+}
+
+#post-container {
+  margin-top: 20px;
+}
+
+.post {
+  background: var(--accent-color);
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+#postsList {
+  margin-top: 20px;
+}
+
+/* Home page styles */
+.home-container {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-container h1 {
+  color: var(--primary-color);
+}
+
+.home-container p {
+  margin: 20px 0;
+}
+
+.home-container .button {
+  background-color: var(--secondary-color);
+  padding: 15px 30px;
+  font-size: 18px;
+}
